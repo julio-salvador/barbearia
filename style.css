@@ -12,6 +12,7 @@ body {
 }
 
 .beneficios{
+    text-align: center;
     background: #f8b053;
     padding: 20px;
 }
@@ -20,7 +21,8 @@ h2{
     text-align: center;
 }
 
-u1{
+ul{
+    text-decoration: none;
     display: inline-block;
     vertical-align: top;
     width: 20px;
@@ -57,4 +59,8 @@ h1{
 
 .centralizado{
     text-align: center;
+}
+
+li{
+    text-decoration: none;
 }
