@@ -1,6 +1,14 @@
 body {
+    margin : 0px;
+    padding: 0px;
     background: #f8b053;
 }
+
+header {
+    background: #f8b053;
+    padding: 20px 0;
+}
+
 
 .principal{
     background: #fcac43;
@@ -15,6 +23,18 @@ body {
     text-align: center;
     background: #f8b053;
     padding: 20px;
+}
+
+.beneficios {
+    background: #f8b053;
+    padding: 20px;
+    font-size:20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 h2{
@@ -63,4 +83,53 @@ h1{
 li{
     text-decoration: none;
     list-style-type: none;
+}
+
+
+nav {
+position: absolute;
+top: 110px;
+right: 0;
+}
+
+nav li {
+display: inline;
+margin: 0 0 0 15px;
+}
+
+nav a {
+text-transform: uppercase;
+color: #000000;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #C78C19;
+text-decoration: underline;
+}
+
+main {
+width: 940px;
+margin: 0 auto;
+}
+
+
+.beneficios {
+background: #f8b053;
+padding: 20px;
+font-size:20px;
+}
+
+.beneficios ul {
+display: inline-block;
+vertical-align: top;
+width: 20%;
+margin-right: 15%;
+line-height : 2.0;
+}
+
+.imagembeneficios {
+width: 50%;
 }
