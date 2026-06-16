@@ -9,6 +9,9 @@ header {
     padding: 20px 0;
 }
 
+.caixa img{
+    width: 50%;
+}
 
 .principal {
     background: #fcac43;
